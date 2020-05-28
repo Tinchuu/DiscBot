@@ -71,7 +71,8 @@ client.on('message', (message)=>
                         }
                         else
                         {
-                            message.reply(result);
+                            message.reply("done");
+                            console.log(result);
                         }
                     });
                 });
