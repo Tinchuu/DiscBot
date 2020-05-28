@@ -3,7 +3,7 @@ const sql = require('sqlite3').verbose();
 const client = new Discord.Client();
 
 client.login(process.env.BOT_TOKEN);
-
+llolersjawd
 
 client.on('ready', ()=>
 {
