@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const sql = require('sqlite3').verbose();
 const client = new Discord.Client();
 
-client.login("NzA3OTAzOTI2MzQ2OTczMjY0.XtAg1Q.artIfDJ8GqRQpFsfeZ6ciKixoVM");
+client.login(process.env.BOT_TOKEN);
 
 client.on('ready', ()=>
 {
