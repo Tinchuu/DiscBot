@@ -41,7 +41,10 @@ client.on('message', (message)=>
         switch(command)
         {
             case "delete":
-                message.reply("deleting " + parameter + " messages");
+                message.channel.bulkDelete(parameter + 2)
+                {
+                    message.reply("deleting " + parameter + " messages");
+                }
                 break;
             case "hello":
                 message.reply("hi");
