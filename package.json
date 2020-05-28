@@ -14,8 +14,6 @@
     "type": "git",
     "url": "git+https://github.com/InfernoDuck/DiscBot/edit/master/package.json"
   },
-  "requires": true,
-  "lockfileVersion": 1,
   "dependencies": {
     "@discordjs/collection": {
       "version": "0.1.5",
