@@ -45,6 +45,9 @@ client.on('message', (message)=>
                     message.reply("deleting " + parameter + " messages");
                 });
                 break;
+            case "play":
+                message.channel.send("lol imagine playing music");
+                break;
             case "hello":
                 message.reply("hi");
                 break;
