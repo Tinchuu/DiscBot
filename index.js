@@ -56,7 +56,7 @@ client.on('message', (message)=>
                 break;
             case "db":
                 
-                var db = new sql.Database('./db/test.db', (err) => {
+                var db = new sql.Database('https://github.com/InfernoDuck/DiscBot/blob/master/db/test.db', (err) => {
                     if (err) 
                     {
                         return console.error(err.message);
